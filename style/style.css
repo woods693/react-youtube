@@ -1,0 +1,39 @@
+.searchBar{
+  margin: 20px;
+  text-align: center;
+}
+
+.searchBar input{
+  width: 80%;
+  display: block;
+  floating: left;
+}
+
+
+.playing-video{
+  position: relative;
+  padding-bottom: 55%;
+  padding-top: 40px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-list{
+  list-style-type: none;
+}
+
+.video-list li{
+  margin: 10px;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-bottom-color: grey;
+  border-right-color: grey;
+}
+
+.video-list-item{
+  cursor: pointer;
+}
+
+.video-list-item:hover{
+  background-color: #ff8080;
+}
